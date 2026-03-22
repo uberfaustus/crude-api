@@ -19,7 +19,7 @@ test("CRUD flow", async () => {
       name: "Test",
       description: "Test desc",
       price: 100,
-      category: "books",
+      category: "test",
       inStock: true,
     },
   });
