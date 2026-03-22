@@ -67,7 +67,7 @@ export async function productRoutes(fastify: FastifyInstance) {
     return reply.send(products[index]);
   });
 
-  // DELETE
+
   fastify.delete("/api/products/:id", async (req, reply) => {
     const { id } = req.params as { id: string };
 
